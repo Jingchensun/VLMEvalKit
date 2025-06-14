@@ -1208,7 +1208,8 @@ qwen2vl_series = {
         Qwen2VLChat,
         model_path="Qwen/Qwen2.5-Omni-7B",
         min_pixels=128 * 28 * 28,
-        max_pixels=768 * 28 * 28,
+        #max_pixels=768 * 28 * 28,
+        max_pixels=16384 * 28 * 28,
         total_pixels=24576 * 28 * 28,
         use_custom_prompt=False,
         use_audio_in_video=True, # set use audio in video
